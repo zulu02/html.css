@@ -3,32 +3,61 @@
   <head>
     <meta charset="UTF-8">
     <title>
+      <h1 id ="title">dfswfedsfdsfsd</h1>
       
     </title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <h1 id="title"></h1>
-    <p id="description"></p>
+    <h1 id ="title">dfswfedsfdsfsd</h1>
+    <p id="description">dsedasdas</p>
     <form id="survey-form">
-      <label for="name" id="name-label">Please, write your name:</label><br>
-      <input type="text" id="name" name="name" placeholder="name" required><br>
-      <label for="email" id="email-label">Please, write your email</label><br>
-      <input type="email" id="email" name="email" placeholder="email" required><br>
-      <label for="number" id="number-label">Please, write your Age</label><br>
-      <input type="number" id="Age" name="number" placeholder="Age" min= "1" max= "130" required><br>
-     
-      <input type="radio" id="dropdown-female" name="dropdown" value="Female">
-      <label for="dropdown-female">Female</label><br>
-      <input type="radio" id="dropdown-male" name="dropdown" value="Male">
-      <label for="dropdown-male">Male</label><br>
-      <input type="radio" id="dropdown-neither" name="dropdown" value="Neither">
-      <label for="dropdown-neither">None of the above</label>
-
-      <label for="">Do you have any more information? Please type below:</label>
-      <textarea id="" name="w3review" type rows="4" cols="50">      
-      </textarea>
+      <div>
+        <label for="name" id="name-label">Please, write your name:</label><br>
+        <input type="text" id="name" name="name" placeholder="name" required><br>
+      </div>
+      <div>
+        <label for="email" id="email-label">Please, write your email</label><br>
+        <input type="email" id="email" name="email" placeholder="email" required><br>
+      </div>
+      <div>
+        <label for="number" id="number-label">Please, write your Age</label><br>
+        <input type="number" id="number" name="number" placeholder="Age" min= "1" max= "130" required><br>
+      </div>
+      <div>
+        <label for="dropdown">what is your gender</label><br>
+        <select id="dropdown"><br>
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="none of the above">none of the above</option>
+        </select>
+      </div>
+        <div>
+          <p><h3>are you married?</h3></p>
+          <input type="radio" id="dropdown" name="dropdown" value="yes">
+          <label for="dropdown-female">yes</label><br>
+          <input type="radio" id="dropdown" name="dropdown" value="no">
+          <label for="dropdown-female">no</label><br>
+        </div>
+      <div>
+        <p><h3>What do you eat for breakfast</h3></p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> eggs</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> corn</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> coffee</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> mamaliga</label><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> tapioca </label><br>
+      </div>
+      <div>
+        <label for="">Do you have any more information? Please type below:</label>
+        <textarea id="" name="comment" type rows="4" cols="50">      </textarea>
+      </div>
+      <button id="submit">Submit</button>
       
 
 
