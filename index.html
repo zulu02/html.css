@@ -12,12 +12,23 @@
     <h1 id="title"></h1>
     <p id="description"></p>
     <form id="survey-form">
-      <label for="name">Please, write your name:</label><br>
+      <label for="name" id="name-label">Please, write your name:</label><br>
       <input type="text" id="name" name="name" placeholder="name" required><br>
-      <label for="email">Please, write your email</label><br>
+      <label for="email" id="email-label">Please, write your email</label><br>
       <input type="email" id="email" name="email" placeholder="email" required><br>
-      <label for="number">Please, write your Age</label><br>
+      <label for="number" id="number-label">Please, write your Age</label><br>
       <input type="number" id="Age" name="number" placeholder="Age" min= "1" max= "130" required><br>
+     
+      <input type="radio" id="dropdown-female" name="dropdown" value="Female">
+      <label for="dropdown-female">Female</label><br>
+      <input type="radio" id="dropdown-male" name="dropdown" value="Male">
+      <label for="dropdown-male">Male</label><br>
+      <input type="radio" id="dropdown-neither" name="dropdown" value="Neither">
+      <label for="dropdown-neither">None of the above</label>
+
+      <label for="">Do you have any more information? Please type below:</label>
+      <textarea id="" name="w3review" type rows="4" cols="50">      
+      </textarea>
       
 
 
